@@ -21,6 +21,7 @@
 		41B18F0218BA951A00684D0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B18EE418BA951A00684D0D /* UIKit.framework */; };
 		41B18F0A18BA951A00684D0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41B18F0818BA951A00684D0D /* InfoPlist.strings */; };
 		41B18F0C18BA951A00684D0D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B18F0B18BA951A00684D0D /* Git_TestTests.m */; };
+		41B18F1718BA977600684D0D /* MACTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B18F1618BA977600684D0D /* MACTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		41B18F0718BA951A00684D0D /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		41B18F0918BA951A00684D0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41B18F0B18BA951A00684D0D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		41B18F1518BA977600684D0D /* MACTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACTest.h; sourceTree = "<group>"; };
+		41B18F1618BA977600684D0D /* MACTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				41B18EF618BA951A00684D0D /* MACViewController.m */,
 				41B18EF818BA951A00684D0D /* Images.xcassets */,
 				41B18EE718BA951A00684D0D /* Supporting Files */,
+				41B18F1518BA977600684D0D /* MACTest.h */,
+				41B18F1618BA977600684D0D /* MACTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B18EF118BA951A00684D0D /* MACAppDelegate.m in Sources */,
+				41B18F1718BA977600684D0D /* MACTest.m in Sources */,
 				41B18EED18BA951A00684D0D /* main.m in Sources */,
 				41B18EF718BA951A00684D0D /* MACViewController.m in Sources */,
 			);
